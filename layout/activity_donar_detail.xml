@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonarDetail">
+
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="10dp"
+            android:text="Name"
+            android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height='33dp'
+        android:layout_above="@+id/add1"
+        android:layout_below="@+id/name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="185dp"
+        android:layout_marginBottom="69dp"
+        android:layout_toStartOf="@+id/quantity"
+        android:text="Food Type"
+        android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height='33dp'
+            android:layout_below="@+id/name"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="46dp"
+            android:text="Quantity"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/add1"
+            android:layout_width="397dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/locality1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginEnd="10dp"
+            android:text="Address"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/locality1"
+            android:layout_width="397dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/state"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="38dp"
+            android:layout_marginEnd="10dp"
+            android:text="Locality"
+            android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="match_parent"
+        android:layout_height='33dp'
+        android:layout_above="@+id/phone"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="70dp"
+        android:text="State"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height='wrap_content'
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="67dp"
+        android:text="Phone"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
